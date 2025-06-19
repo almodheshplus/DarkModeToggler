@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<!-- 
+    # Coded With 🧡 By Youssef Almodhesh ^_^
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy With Dark Mode Toggler</title>
+
+    <!-- SEO -->
+    <meta name="description" content="...">
+    <meta name="keywords" content="...">
+    <meta property="og:title" content="Yummy">
+    <meta property="og:description" content="Yummy">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Yummy">
+    <!-- <meta property="og:url" content="" /> -->
+    <meta property="og:image" content="./assets/images/og.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body id="home">
+
+    <div class="dark-mode-toggler">
+        <span class="btn-mode"><i class="bi bi-moon-stars-fill"></i></span>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-white sticky-top header w-100" id="navbar">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="#">Yummy<span style="color: var(--main-color);">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Links" aria-controls="Links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="Links">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ourmenu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Saying About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#chefs">Chefs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <button class="btn btn-custom-primary">Book a Table</button>
+        </div>
+    </nav>
+
+    <main data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true">
+        <section class="hero">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-between">
+                    <div class="col-md-5 hero-text">
+                        <h1>Enjoy Your Healthy<br>
+                            Delicious Food</h1>
+                        <p>We are team of talented designers making websites with Bootstrap</p>
+                        <div class="d-flex buttons">
+                            <button class="btn btn-custom-primary shadow-lg">Book a Table</button>
+                            <button class="btn btn-custom"><i class="bi bi-play-circle"></i><span>Watch Video</span></button>
+                        </div>
+                    </div>
+                    <div class="col-md-5 hero-img"><img class="img-fluid" src="./assets/images/hero-img.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+        <div id="about">
+            <section class="about">
+                <div class="container">
+                    <h2 class="section-header">
+                        <span class="first">About Us</span>
+                        <span class="second">Learn More <span class="phrase">About Us</span></span>
+                    </h2>
+                    <div class="row justify-content-between">
+                        <div class="col-md-7">
+                            <img src="./assets/images/about.jpg" alt="" class="img-fluid">
+                            <p class="caption">        
+                            Book a Table <span>+1 5589 55488 55</span>
+                            </p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="ps-md-5">
+                                <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></p>
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                                    <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                                </ul>
+                                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                                <div class="video">
+                                    <img src="./assets/images/about-2.jpg" alt="" class="img-fluid">
+                                    <div class="play-btn"><i class="bi bi-play-fill"></i><i class="bi bi-play-fill"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="whyus">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-4">
+                            <div class="primary-card">
+                                <h3>Why Choose Yummy</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+                                <div class="text-center"><button class="btn btn-primary">Learn More <i class="bi bi-chevron-right"></i></button></div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="row justify-content-between h-100">
+                                <div class="col-md-4">
+                                    <div class="secondary-card">
+                                        <i class="bi bi-clipboard-data"></i>
+                                        <h4>Corporis voluptates officia eiusmod</h4>
+                                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="secondary-card">
+                                        <i class="bi bi-gem"></i>
+                                        <h4>Ullamco laboris ladore lore pan</h4>
+                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="secondary-card">
+                                        <i class="bi bi-inboxes"></i>
+                                        <h4>Labore consequatur incidid dolore</h4>
+                                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="analytics" id="analytics">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row justify-content-between">
+                            <div class="col-md-3 text-center">
+                                <h4>232</h4>
+                                <p>Clients</p>
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <h4>521</h4>
+                                <p>Projects</p>
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <h4>1453</h4>
+                                <p>Hours Of Support</p>
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <h4>32</h4>
+                                <p>Workers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div> 
+
+        <section class="ourmenu" id="ourmenu">
+            <div class="container">
+                <h2 class="section-header">
+                    <span class="first">Our Menu</span>
+                    <span class="second">Check Our <span class="phrase">Yummy Menu</span></span>
+                </h2>
+                <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" id="starters-tab" data-bs-toggle="pill" data-bs-target="#starters" role="tab" aria-controls="starters" aria-selected="true">Starters</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" id="breakfast-tab" data-bs-toggle="pill" data-bs-target="#breakfast" role="tab" aria-controls="breakfast" aria-selected="false">Breakfast</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch" role="tab" aria-controls="pills-lunch" aria-selected="false">Lunch</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner" role="tab" aria-controls="pills-dinner" aria-selected="false">Dinner</a></li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="starters" role="tabpanel" aria-labelledby="starters-tab" tabindex="0">
+                        <h2 class="section-header">
+                            <span class="first">Menu</span>
+                            <span class="second"><span class="phrase">Starters</span></span>
+                        </h2>
+                        <div class="row justify-content-between">
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-1.png" alt="" class="img-fluid">
+                                    <h4>Magnam Tiste</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$5.95</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-2.png" alt="" class="img-fluid">
+                                    <h4>Aut Luia</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$6.48</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-3.png" alt="" class="img-fluid">
+                                    <h4>Est Eligendi</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$8.34</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-4.png" alt="" class="img-fluid">
+                                    <h4>Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$7.99</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-5.png" alt="" class="img-fluid">
+                                    <h4>Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$3.66</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-6.png" alt="" class="img-fluid">
+                                    <h4>Laboriosam Direva</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$9.22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab" tabindex="0">
+                        <h2 class="section-header">
+                            <span class="first">Menu</span>
+                            <span class="second"><span class="phrase">Breakfast</span></span>
+                        </h2>
+                        <div class="row justify-content-between">
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-1.png" alt="" class="img-fluid">
+                                    <h4>Magnam Tiste</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$5.95</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-2.png" alt="" class="img-fluid">
+                                    <h4>Aut Luia</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$6.48</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-3.png" alt="" class="img-fluid">
+                                    <h4>Est Eligendi</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$8.34</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-4.png" alt="" class="img-fluid">
+                                    <h4>Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$7.99</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-5.png" alt="" class="img-fluid">
+                                    <h4>Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$3.66</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-6.png" alt="" class="img-fluid">
+                                    <h4>Laboriosam Direva</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$9.22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab" tabindex="0">
+                        <h2 class="section-header">
+                            <span class="first">Menu</span>
+                            <span class="second"><span class="phrase">Lunch</span></span>
+                        </h2>
+                        <div class="row justify-content-between">
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-1.png" alt="" class="img-fluid">
+                                    <h4>Magnam Tiste</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$5.95</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-2.png" alt="" class="img-fluid">
+                                    <h4>Aut Luia</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$6.48</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-3.png" alt="" class="img-fluid">
+                                    <h4>Est Eligendi</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$8.34</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-4.png" alt="" class="img-fluid">
+                                    <h4>Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$7.99</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-5.png" alt="" class="img-fluid">
+                                    <h4>Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$3.66</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-6.png" alt="" class="img-fluid">
+                                    <h4>Laboriosam Direva</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$9.22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab" tabindex="0">
+                        <h2 class="section-header">
+                            <span class="first">Menu</span>
+                            <span class="second"><span class="phrase">Dinner</span></span>
+                        </h2>
+                        <div class="row justify-content-between">
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-1.png" alt="" class="img-fluid">
+                                    <h4>Magnam Tiste</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$5.95</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-2.png" alt="" class="img-fluid">
+                                    <h4>Aut Luia</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$6.48</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-3.png" alt="" class="img-fluid">
+                                    <h4>Est Eligendi</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$8.34</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-4.png" alt="" class="img-fluid">
+                                    <h4>Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$7.99</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-5.png" alt="" class="img-fluid">
+                                    <h4>Eos Luibusdam</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$3.66</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-custom">
+                                    <img src="./assets/images/menu-item-6.png" alt="" class="img-fluid">
+                                    <h4>Laboriosam Direva</h4>
+                                    <p>Lorem, deren, trataro, filede, nerada</p>
+                                    <span>$9.22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div id="testimonialsAboutUs" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+
+                                <div class="carousel-item active">
+                                    <div class="row justify-content-between">
+                                        <div class="col-md-9 text">
+                                            <p class="qoute">
+                                                <i class="bi bi-quote quote-icon-left"></i>
+                                                Proin iaculis purus consequat sem cure 
+                                                digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, 
+                                                ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at 
+                                                semper.
+                                                <i class="bi bi-quote quote-icon-right"></i>
+                                            </p>
+                                            <span class="name">Saul Goodman</span>
+                                            <span class="order">Ceo & Founder</span>
+                                            <span class="stars">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </span>
+                                        </div>
+                                        <div class="col-md-3 avatar"><img src="./assets/images/testimonials-1.jpg" alt="" class="rounded-circle img-fluid"></div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row justify-content-between">
+                                        <div class="col-md-9 text">
+                                            <p class="qoute">
+                                                <i class="bi bi-quote quote-icon-left"></i>
+                                                Lorem ipsum dolor sit amet consectetur elit. vitae facere aut necessitatibus ipsam molestiae excepturi expedita saepe harum odio, quia, odit voluptas illum, non voluptates facilis eius suscipit
+                                                <i class="bi bi-quote quote-icon-right"></i>
+                                            </p>
+                                            <span class="name">Sara Wilsson</span>
+                                            <span class="order">Designer</span>
+                                            <span class="stars">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </span>
+                                        </div>
+                                        <div class="col-md-3 avatar"><img src="./assets/images/testimonials-2.jpg" alt="" class="rounded-circle img-fluid"></div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row justify-content-between">
+                                        <div class="col-md-9 text">
+                                            <p class="qoute">
+                                                <i class="bi bi-quote quote-icon-left"></i>
+                                                Repudiandae iusto cupiditate, odio totam, at, laboriosam libero animi recusandae nihil beatae suscipit eaque. Architecto maxime aspernatur doloremque aliquam maiores vel temporibus.
+                                                <i class="bi bi-quote quote-icon-right"></i>
+                                            </p>
+                                            <span class="name">Locey Carlson</span>
+                                            <span class="order">Developer</span>
+                                            <span class="stars">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </span>
+                                        </div>
+                                        <div class="col-md-3 avatar"><img src="./assets/images/testimonials-3.jpg" alt="" class="rounded-circle img-fluid"></div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row justify-content-between">
+                                        <div class="col-md-9 text">
+                                            <p class="qoute">
+                                                <i class="bi bi-quote quote-icon-left"></i>
+                                                Amet corrupti ea cumque soluta asperiores vero, tenetur quos harum ipsam saepe assumenda placeat odio culpa perspiciatis! Sequi facilis harum dolor ex accusamus aperiam amet.
+                                                <i class="bi bi-quote quote-icon-right"></i>
+                                            </p>
+                                            <span class="name">John Larson</span>
+                                            <span class="order">Entrepreneur</span>
+                                            <span class="stars">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </span>
+                                        </div>
+                                        <div class="col-md-3 avatar"><img src="./assets/images/testimonials-4.jpg" alt="" class="rounded-circle img-fluid"></div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#testimonialsAboutUs" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonial 1"></button>
+                        <button type="button" data-bs-target="#testimonialsAboutUs" data-bs-slide-to="1" aria-current="true" aria-label="Testimonial 2"></button>
+                        <button type="button" data-bs-target="#testimonialsAboutUs" data-bs-slide-to="2" aria-current="true" aria-label="Testimonial 3"></button>
+                        <button type="button" data-bs-target="#testimonialsAboutUs" data-bs-slide-to="3" aria-current="true" aria-label="Testimonial 4"></button>
+                    </div>
+                </div>
+            </div>    
+        </section>
+    </main>
+
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-3">
+                    <h6>Address<i class="bi bi-geo-alt icon"></i></h6>
+                    <p>
+                        A108 Adam Street
+                        <br>
+                        New York, NY 535022
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h6>Contact <i class="bi bi-telephone icon"></i></h6>
+                    <p>
+                        <strong>Phone</strong>: +1 5589 55488 55
+                        <br>
+                        <strong>Email</strong>: info@example.com
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h6>Opening Hours<i class="bi bi-clock icon"></i></h6>
+                    <p>
+                        <strong>Mon-Sat</strong>: 11AM - 23PM
+                        <br>
+                        <strong>Sunday</strong>: Closed
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h6>Follow Us<i class="bi bi-share icon"></i></h6>
+                    <a href="#" class="follow-item"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="follow-item"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="follow-item"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="follow-item"><i class="bi bi-discord"></i></a>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center pt-4">Alomdhesh Plus&copy;, All Rights Reserved.</div>
+        </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
