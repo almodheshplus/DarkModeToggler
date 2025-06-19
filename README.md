@@ -4,7 +4,7 @@ designed using bootstrap and vanillaJS
 
 ## Preview
 
-> [https://yummywithdarkmode.pages.dev.](yummywithdarkmode.pages.dev.)
+> [https://yummywithdarkmode.pages.dev](yummywithdarkmode.pages.dev)
 
 ## Screenshot
 
